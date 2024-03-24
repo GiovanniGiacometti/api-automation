@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "api-automation"
+version = "0.1.0"
+description = ""
+authors = ["Giovanni Giacometti <giovanni1.giacometti@mail.polimi.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-api-python-client = "^2.123.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+mypy = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
